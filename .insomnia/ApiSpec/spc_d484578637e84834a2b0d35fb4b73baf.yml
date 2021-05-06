@@ -1,0 +1,33 @@
+_id: spc_d484578637e84834a2b0d35fb4b73baf
+type: ApiSpec
+parentId: wrk_0037c1c4ea594814b77542be01ecf6f5
+modified: 1620318464385
+created: 1620317785734
+fileName: my-spec.yaml
+contents: |-
+  openapi: 3.0.0
+  info:
+    title: API Pagstar
+    version: 2.1.0
+  servers:
+    - url: https://apiservice.pagstar.com/api
+      description: PROD
+    - url: https://dev-apiservice.pagstar.com/api
+      description: DEV
+  paths:
+    /data/banks:
+      get:
+        summary: Returns a list of available banks.
+        tags:
+          - Misc
+        description: Optional extended description in CommonMark or HTML.
+        responses:
+          '200':    # status code
+            description: A JSON array of user names
+            content:
+              application/json:
+                schema:
+                  type: array
+                  items: 
+                    type: string
+contentType: yaml
