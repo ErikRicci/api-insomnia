@@ -1,0 +1,32 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f59f1c6f8a
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f51f7ae776
+modified: 1620319107217
+created: 1620319107217
+url: "{{ base_url }}/api/partner/tenant"
+name: Create Tenant
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": "bonus@pairceiro",
+      "name": "pairceiro.tv - Bônus"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107217
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f515338bf2
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f5ee1acfa5
+modified: 1620319107528
+created: 1620319107528
+url: "{{ base_url }}/api/resetpassword"
+name: Change Password
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "phone": "5519982492037",
+      "newpassword": "123456"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107528
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

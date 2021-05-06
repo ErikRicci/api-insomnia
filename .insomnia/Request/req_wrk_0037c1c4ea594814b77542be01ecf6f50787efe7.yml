@@ -1,0 +1,27 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f50787efe7
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f50a893ece
+modified: 1620319107565
+created: 1620319107565
+url: "{{ base_url }}/api/misc/logs"
+name: Clear Logs
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: locale
+    disabled: false
+    value: en
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107565
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,24 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f5b807dcbd
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f580562bff
+modified: 1620319106847
+created: 1620319106847
+url: "{{ base_url }}/api/bank-slip/2"
+name: Get Bankslips by ID (ADM)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319106847
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,37 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f51232ba48
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f59f8a2389
+modified: 1620319106693
+created: 1620319106693
+url: "{{ base_url }}/api/account/address"
+name: Patch User Address
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "zip_code": "13468-750",
+      "street": "Rua Josefina Cecchino Pantano",
+      "additional_information": "CASA TIJOLINHOS",
+      "district": "São Paulo",
+      "city": "Americana",
+      "fu": "SP",
+      "number": "287"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319106693
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

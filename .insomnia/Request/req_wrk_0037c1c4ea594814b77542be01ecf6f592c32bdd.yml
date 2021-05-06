@@ -1,0 +1,24 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f592c32bdd
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f5b41a92be
+modified: 1620319107163
+created: 1620319107163
+url: "{{ base_url }}/api/partner/payment"
+name: Get Payments
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107163
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

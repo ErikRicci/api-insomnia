@@ -1,0 +1,24 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f5de4e322a
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f59f8a2389
+modified: 1620319106683
+created: 1620319106683
+url: "{{ base_url }}/api/auth/phone?phone=5519982492037"
+name: Check Number Exists
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319106683
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

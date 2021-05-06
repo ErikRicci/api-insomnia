@@ -1,0 +1,35 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f50df0c608
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f547e56419
+modified: 1620319107384
+created: 1620319107384
+url: "{{ base_url }}/api/partner/withdraw"
+name: Solicit Withdrawal
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "bank_account_id": 2,
+      "value": 12
+    }
+parameters: []
+headers:
+  - name: version
+    disabled: false
+    value: 2.1.2
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107384
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

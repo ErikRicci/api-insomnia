@@ -1,0 +1,31 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f5024f69d5
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f535d0f5fb
+modified: 1620319107728
+created: 1620319107728
+url: "{{ base_url }}/api/partner/reset/password"
+name: Reset Password
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "email": "tutamackenzie@hotmail.com"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107728
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

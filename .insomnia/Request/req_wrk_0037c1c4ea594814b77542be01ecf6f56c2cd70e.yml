@@ -1,0 +1,40 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f56c2cd70e
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f580562bff
+modified: 1620319106826
+created: 1620319106826
+url: "{{ base_url }}/api/pay/qrcode"
+name: Read QR (pay/redeem)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "BingoLar",
+      "document": "11.222.333/0001-23",
+      "value": 363,
+      "tenant_id": "fcbf7217cc2e0b4593ec7b447e847948",
+      "transaction_id": "3da452897296f07fed132cb1eef1ea40",
+      "callback": "https://www.google.com/",
+      "type": "redeem"
+    }
+parameters: []
+headers:
+  - name: version
+    disabled: false
+    value: 2.1.6
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319106826
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

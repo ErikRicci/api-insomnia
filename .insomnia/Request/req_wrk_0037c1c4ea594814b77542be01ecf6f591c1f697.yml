@@ -1,0 +1,27 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f591c1f697
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f5a425bf1b
+modified: 1620319106923
+created: 1620319106923
+url: "{{ base_url }}/api/notification/email/group/2"
+name: Email Notification to Group
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319106923
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

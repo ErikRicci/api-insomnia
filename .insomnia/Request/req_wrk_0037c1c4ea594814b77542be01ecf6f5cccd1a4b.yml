@@ -1,0 +1,24 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f5cccd1a4b
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f5b136609f
+modified: 1620319107781
+created: 1620319107781
+url: "{{ base_url }}/api/invites"
+name: Get User Invites
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107781
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

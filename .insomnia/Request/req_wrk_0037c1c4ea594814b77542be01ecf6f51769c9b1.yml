@@ -1,0 +1,27 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f51769c9b1
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f580562bff
+modified: 1620319106764
+created: 1620319106764
+url: "{{ base_url }}/api/pixpay/39ca8255-2330-312b-95b7-012ad36a85ac"
+name: Get PIXPAY QR Code
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: version
+    disabled: false
+    value: 2.1.6
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319106764
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

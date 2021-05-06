@@ -1,0 +1,31 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f5ef564fd3
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f5dd4a62b5
+modified: 1620319106669
+created: 1620319106669
+url: "{{ base_url }}/api/cards/7"
+name: Update Card
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "status": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319106669
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

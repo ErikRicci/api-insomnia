@@ -1,0 +1,24 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f5064c5016
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f52f71695b
+modified: 1620319106643
+created: 1620319106643
+url: "{{ base_url }}/api/exclude/7"
+name: DELETE USER PERMANENTLY
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319106643
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f5623b264a
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f5a425bf1b
+modified: 1620319106945
+created: 1620319106945
+url: "{{ base_url }}/api/notification/sms/group/1"
+name: SMS Notification to Group
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "message": "Eu te amo muito, Luiza. Estou com soninho e vou indo nessa. Durma bem, beijões e até depoisssssss fuiiiiiiii"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319106945
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

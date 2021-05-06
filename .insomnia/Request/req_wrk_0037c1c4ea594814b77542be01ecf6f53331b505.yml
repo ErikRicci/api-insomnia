@@ -1,0 +1,32 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f53331b505
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f59f8a2389
+modified: 1620319106685
+created: 1620319106685
+url: "{{ base_url }}/api/idwall/document"
+name: IDWall/Document
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "user_id": 5,
+      "document": "066.974.183-38"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319106685
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

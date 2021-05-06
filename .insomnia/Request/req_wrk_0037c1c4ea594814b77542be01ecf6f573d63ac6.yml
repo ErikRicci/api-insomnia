@@ -1,0 +1,24 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f573d63ac6
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f50a893ece
+modified: 1620319107679
+created: 1620319107679
+url: "{{ base_url }}/api/cep/13468750"
+name: Get CEP
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107679
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

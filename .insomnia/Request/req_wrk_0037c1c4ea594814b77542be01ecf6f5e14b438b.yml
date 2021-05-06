@@ -1,0 +1,24 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f5e14b438b
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f59f8a2389
+modified: 1620319106681
+created: 1620319106681
+url: "{{ base_url }}/api/auth/document?document=066.974.183-38"
+name: Check Document
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319106681
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

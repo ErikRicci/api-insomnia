@@ -1,0 +1,35 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f568a125d8
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f5dd4a62b5
+modified: 1620319106675
+created: 1620319106675
+url: "{{ base_url }}/api/cards"
+name: Create Card
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "card_number": "1231-5121-0002-0897",
+      "holder_name": "Luiza Portugal Merino",
+      "expiration_date": "01/10",
+      "cvv": "125",
+      "brand_name": "Elo"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319106675
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

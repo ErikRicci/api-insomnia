@@ -1,0 +1,24 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f56a7d41d8
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f590eef613
+modified: 1620319107472
+created: 1620319107472
+url: "{{ base_url }}/api/partner/balance"
+name: Get Balance
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107472
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

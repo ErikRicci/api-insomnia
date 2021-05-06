@@ -1,0 +1,33 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f56f2545ee
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f56d391e13
+modified: 1620319107242
+created: 1620319107242
+url: "{{ base_url }}/api/bank-accounts/3"
+name: Patch Bank Account
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "bank_id": 237,
+      "agency_number": "512311",
+      "account_number": "01234-56"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107242
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

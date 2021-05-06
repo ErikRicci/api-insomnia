@@ -1,0 +1,27 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f502c00bd8
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f5a425bf1b
+modified: 1620319106912
+created: 1620319106912
+url: "{{ base_url }}/api/notification/deeplink/group/2"
+name: Deeplink Notification to Group
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319106912
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

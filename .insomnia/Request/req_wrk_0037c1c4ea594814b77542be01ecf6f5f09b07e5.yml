@@ -1,0 +1,31 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f5f09b07e5
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f59f8a2389
+modified: 1620319106687
+created: 1620319106687
+url: "{{ base_url }}/api/accounts/idwall/verify"
+name: Verify ID Wall
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "idwall_token": "37353c97-0efe-4857-8aff-d694f4248bb0"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319106687
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

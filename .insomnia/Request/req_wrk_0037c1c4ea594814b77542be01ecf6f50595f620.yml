@@ -1,0 +1,39 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f50595f620
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f56d391e13
+modified: 1620319107264
+created: 1620319107264
+url: "{{ base_url }}/api/bank-accounts"
+name: Create Bank Account
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "bank_id": 1,
+      "account_number": "123165",
+      "agency_number": "555"
+    }
+parameters: []
+headers:
+  - name: locale
+    disabled: false
+    value: en
+  - name: version
+    disabled: false
+    value: 2.1.5
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107264
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

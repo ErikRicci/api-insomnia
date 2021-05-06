@@ -1,0 +1,16 @@
+_id: env_env_fdd6350ab163db075dc0121c683d2793f60dc3e4_sub
+type: Environment
+parentId: env_fdd6350ab163db075dc0121c683d2793f60dc3e4
+modified: 1620318533863
+created: 1620318533863
+name: OpenAPI env
+data:
+  scheme:
+    - http
+  base_path: /api
+  host: apiservice.pagstar.com
+  bearerToken: bearerToken
+dataPropertyOrder: null
+color: null
+isPrivate: false
+metaSortKey: 1620318533863

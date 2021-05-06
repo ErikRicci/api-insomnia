@@ -1,0 +1,27 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f5576b6e3a
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f56d391e13
+modified: 1620319107230
+created: 1620319107230
+url: "{{ base_url }}/api/bank-accounts/3"
+name: Delete Bank Account
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: version
+    disabled: false
+    value: 2.1.5
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107230
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

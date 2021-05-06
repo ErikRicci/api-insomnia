@@ -1,0 +1,24 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f596cb0b8c
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f590eef613
+modified: 1620319107462
+created: 1620319107462
+url: "{{ base_url }}/api/partner/customers/balance/1"
+name: Get Customer Balance
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107462
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

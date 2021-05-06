@@ -1,0 +1,24 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f51535a931
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f5dd4a62b5
+modified: 1620319106671
+created: 1620319106671
+url: "{{ base_url }}/api/cards/7"
+name: Delete Card
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319106671
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

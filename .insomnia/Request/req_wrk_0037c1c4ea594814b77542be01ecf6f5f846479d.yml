@@ -1,0 +1,39 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f5f846479d
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f5ee1acfa5
+modified: 1620319107552
+created: 1620319107552
+url: "{{ base_url }}/api/auth-v2"
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "phone": "5519984276044",
+      "password": "123456",
+      "timezone": "{% prompt 'Timezone', 'Iza, coloca um timezone partindo da lista do PHP (https://www.php.net/manual/pt_BR/timezones.php)', 'UTC', '', false, true %}"
+    }
+parameters: []
+headers:
+  - name: locale
+    disabled: false
+    value: en
+  - name: version
+    disabled: false
+    value: 2.1.7
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107552
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

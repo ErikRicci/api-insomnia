@@ -1,0 +1,27 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f5e0b52974
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f5ab9a8e11
+modified: 1620319107693
+created: 1620319107693
+url: "{{ base_url }}/api/partner/account/info"
+name: GET Info
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: version
+    disabled: false
+    value: 2.1.7
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107693
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

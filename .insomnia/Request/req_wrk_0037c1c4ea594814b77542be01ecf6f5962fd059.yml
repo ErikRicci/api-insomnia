@@ -1,0 +1,32 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f5962fd059
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f5fdfe2da7
+modified: 1620319107840
+created: 1620319107840
+url: "{{ base_url }}/api/paymee_pix/webhook"
+name: PayMee PIX
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "newStatus": "PAID",
+      "saleToken": "db5a0abc-e910-3108-9165-f243143943c2"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107840
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

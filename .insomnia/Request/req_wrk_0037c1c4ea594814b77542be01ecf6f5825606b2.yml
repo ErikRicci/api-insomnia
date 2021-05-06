@@ -1,0 +1,45 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f5825606b2
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f5fdfe2da7
+modified: 1620319107865
+created: 1620319107865
+url: "{{ base_url }}/api/paymee_pix/webhook/"
+name: PIX
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "newStatus": "PAID",
+      "saleToken": "6f53288e-9eb0-36cc-81be-0d035b59a282",
+      "referenceCode": 18,
+      "currency": "BRL",
+      "amount": 1,
+      "shopper": {
+        "fullName": "ERIK ARAUJO RICCIOPPO",
+        "firstName": "ERIK",
+        "lastName": "RICCIOPPO",
+        "email": "erikdavinci@gmail.com",
+        "cpf": "06697418338",
+        "agency": "3968",
+        "account": "01088578-7"
+      },
+      "date": "2021-04-02T00:12:15.000Z"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107865
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

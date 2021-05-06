@@ -1,0 +1,24 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f5b736e5f3
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f50a893ece
+modified: 1620319107665
+created: 1620319107665
+url: "{{ base_url }}/api/misc/faq"
+name: Get FAQ
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107665
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

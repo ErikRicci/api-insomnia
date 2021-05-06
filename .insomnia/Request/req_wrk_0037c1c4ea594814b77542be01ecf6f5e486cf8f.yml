@@ -1,0 +1,24 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f5e486cf8f
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f5e4a34550
+modified: 1620319106640
+created: 1620319106640
+url: "{{ base_url }}/api/movement"
+name: Get Movements
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319106640
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

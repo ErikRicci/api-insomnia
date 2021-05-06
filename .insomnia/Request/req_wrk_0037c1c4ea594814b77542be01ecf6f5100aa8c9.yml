@@ -1,0 +1,24 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f5100aa8c9
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f5dd4a62b5
+modified: 1620319106677
+created: 1620319106677
+url: "{{ base_url }}/api/cards"
+name: Get Cards
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319106677
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

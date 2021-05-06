@@ -1,0 +1,35 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f565c7b4a2
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f5035eae60
+modified: 1620319107092
+created: 1620319107092
+url: "{{ base_url }}/api/partner/customer"
+name: Create Customer
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "Cliente 2h",
+      "email": "cliente@2h.com",
+      "password": "123456",
+      "phone": "5519900000000",
+      "document": "058.124.511-32"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107092
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

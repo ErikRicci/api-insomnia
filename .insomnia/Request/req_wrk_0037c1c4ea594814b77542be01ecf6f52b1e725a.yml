@@ -1,0 +1,35 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f52b1e725a
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f5fdfe2da7
+modified: 1620319107860
+created: 1620319107860
+url: "{{ base_url }}/api/idwall/webhook"
+name: IDWall
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "token": "faced9f3-1c74-453a-82c3-5d35221ae884",
+      "name": "ERIK ARAUJO RICCIOPPO",
+      "birth_date": "30/12/1999",
+      "sex": "M",
+      "status": "VALID"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107860
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

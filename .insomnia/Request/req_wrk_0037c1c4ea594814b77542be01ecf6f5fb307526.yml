@@ -1,0 +1,36 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f5fb307526
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f51e3281a9
+modified: 1620319107417
+created: 1620319107417
+url: "{{ base_url }}/api/partner/customer/transfer"
+name: List All Customers Transfers
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: sortField
+    disabled: false
+    value: id
+  - name: sortOrder
+    disabled: false
+    value: "1"
+  - name: rows
+    disabled: false
+    value: "4"
+  - name: page
+    disabled: false
+    value: "1"
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107417
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

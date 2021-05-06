@@ -1,0 +1,32 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f5027a77b2
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f580562bff
+modified: 1620319106795
+created: 1620319106795
+url: "{{ base_url }}/api/deposit/credit-card"
+name: Generate Credit Card Deposit (Not developed)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "card_id": 1,
+      "value": 500
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319106795
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

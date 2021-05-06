@@ -1,0 +1,31 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f5e54fab6d
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f5ae9629f4
+modified: 1620319107031
+created: 1620319107031
+url: "{{ base_url }}/api/partner/groups"
+name: Create Group
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "Grupo de Teste 3"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107031
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

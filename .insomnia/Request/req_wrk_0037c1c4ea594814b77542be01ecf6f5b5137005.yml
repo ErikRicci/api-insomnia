@@ -1,0 +1,37 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f5b5137005
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f5b41a92be
+modified: 1620319107165
+created: 1620319107165
+url: "{{ base_url }}/api/partner/payment"
+name: Create Payment
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "transaction_id": "Teste",
+      "tenant_id": "pay@pairceiro",
+      "value": 155,
+      "callback": "https://www.google.com"
+    }
+parameters: []
+headers:
+  - name: locale
+    disabled: false
+    value: en
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107165
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

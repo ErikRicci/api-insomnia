@@ -1,0 +1,24 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f563709508
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f5ae9629f4
+modified: 1620319106955
+created: 1620319106955
+url: "{{ base_url }}/api/partner/groups/1/user/2"
+name: Remove User from Group
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319106955
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

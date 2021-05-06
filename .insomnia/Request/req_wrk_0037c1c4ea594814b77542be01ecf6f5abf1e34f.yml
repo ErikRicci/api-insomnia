@@ -1,0 +1,34 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f5abf1e34f
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f580562bff
+modified: 1620319106774
+created: 1620319106774
+url: "{{ base_url }}/api/deposit/pixpay"
+name: Generate PIX PAY
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "value": 5000
+    }
+parameters: []
+headers:
+  - name: version
+    disabled: false
+    value: 2.1.7
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319106774
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,24 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f513c83a3c
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f5cd1d8790
+modified: 1620319107286
+created: 1620319107286
+url: "{{ base_url }}/api/partner/bank-account/2"
+name: Get Bank Account by ID
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107286
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

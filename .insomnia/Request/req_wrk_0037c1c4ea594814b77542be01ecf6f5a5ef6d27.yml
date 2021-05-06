@@ -1,0 +1,37 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f5a5ef6d27
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f59f8a2389
+modified: 1620319106700
+created: 1620319106700
+url: "{{ base_url }}/api/accounts"
+name: Patch User
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "email": "luizamerino22@hotmail.com"
+    }
+parameters: []
+headers:
+  - name: locale
+    disabled: false
+    value: en
+  - name: version
+    disabled: false
+    value: 2.1.7
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319106700
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

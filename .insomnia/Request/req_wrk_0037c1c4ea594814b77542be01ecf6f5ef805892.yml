@@ -1,0 +1,27 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f5ef805892
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f5a425bf1b
+modified: 1620319106934
+created: 1620319106934
+url: "{{ base_url }}/api/notification/push/group/2"
+name: Push Notification to Group
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319106934
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

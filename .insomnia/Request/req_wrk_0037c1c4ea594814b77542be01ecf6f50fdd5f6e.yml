@@ -1,0 +1,30 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f50fdd5f6e
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f5035eae60
+modified: 1620319107078
+created: 1620319107078
+url: "{{ base_url }}/api/partner/customers"
+name: List All Customers
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: rows
+    disabled: false
+    value: "5"
+  - name: type
+    disabled: false
+    value: user
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107078
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

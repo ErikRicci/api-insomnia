@@ -1,0 +1,28 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f5f694f491
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f5702e91cc
+modified: 1620319106714
+created: 1620319106714
+url: "{{ base_url }}/api/withdraw/approve/127"
+name: Approve Withdraw (ADM)
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: multipart/form-data
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319106714
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

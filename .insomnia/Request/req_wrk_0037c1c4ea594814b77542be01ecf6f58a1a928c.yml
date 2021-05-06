@@ -1,0 +1,27 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f58a1a928c
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f5cd1d8790
+modified: 1620319107297
+created: 1620319107297
+url: "{{ base_url }}/api/partner/bank-account"
+name: List All Bank Account
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: version
+    disabled: false
+    value: 2.1.2
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107297
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

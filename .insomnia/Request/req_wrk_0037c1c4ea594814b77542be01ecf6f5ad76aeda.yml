@@ -1,0 +1,36 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f5ad76aeda
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f55490ed91
+modified: 1620319106710
+created: 1620319106710
+url: "{{ base_url }}/api/transfer"
+name: Make Transfer
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "Amor",
+      "value": 1500,
+      "phone": "5519982492037"
+    }
+parameters: []
+headers:
+  - name: version
+    disabled: false
+    value: 2.1.6
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319106710
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

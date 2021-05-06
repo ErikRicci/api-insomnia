@@ -1,0 +1,35 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f508824a67
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f580562bff
+modified: 1620319106805
+created: 1620319106805
+url: "{{ base_url }}/api/deposit/bank-account"
+name: Generate Bank Transfer Deposit
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "value": 500,
+      "bank_account_id": 3
+    }
+parameters: []
+headers:
+  - name: version
+    disabled: false
+    value: 2.1.7
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319106805
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

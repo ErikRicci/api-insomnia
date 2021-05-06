@@ -1,0 +1,32 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f5b6796f85
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f5035eae60
+modified: 1620319107044
+created: 1620319107044
+url: "{{ base_url }}/api/partner/customers/verify"
+name: Verify Customer
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "email": "erikdavinci@gmail.com",
+      "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107044
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

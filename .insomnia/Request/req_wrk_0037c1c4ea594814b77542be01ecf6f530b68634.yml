@@ -1,0 +1,27 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f530b68634
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f5a425bf1b
+modified: 1620319106900
+created: 1620319106900
+url: "{{ base_url }}/api/notification/sms/2"
+name: SMS Notification to Phone (User)
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319106900
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

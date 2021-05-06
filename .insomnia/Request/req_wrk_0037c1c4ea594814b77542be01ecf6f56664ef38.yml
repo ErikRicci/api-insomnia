@@ -1,0 +1,24 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f56664ef38
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f5ae9629f4
+modified: 1620319107018
+created: 1620319107018
+url: "{{ base_url }}/api/partner/groups"
+name: List All Groups
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107018
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

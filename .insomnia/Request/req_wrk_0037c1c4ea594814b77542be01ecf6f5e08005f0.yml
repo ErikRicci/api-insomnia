@@ -1,0 +1,32 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f5e08005f0
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f5fdfe2da7
+modified: 1620319107831
+created: 1620319107831
+url: "{{ base_url }}/api/paymee_pixpay/webhook"
+name: PayMee PIXPAY
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "newStatus": "PAID",
+      "saleToken": "ea9859c4-049e-3a1f-99d2-da937ec68432"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107831
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

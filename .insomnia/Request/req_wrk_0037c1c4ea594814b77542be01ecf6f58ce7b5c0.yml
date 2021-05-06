@@ -1,0 +1,32 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f58ce7b5c0
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f5fdfe2da7
+modified: 1620319107852
+created: 1620319107852
+url: "{{ base_url }}/api/paymee/webhook"
+name: PayMee
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "newStatus": "PAID",
+      "saleToken": "d178064d-0a20-3f6a-a8ea-3c51d594f4a6"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107852
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

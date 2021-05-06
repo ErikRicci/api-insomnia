@@ -1,0 +1,32 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f540f8526b
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f51e3281a9
+modified: 1620319107429
+created: 1620319107429
+url: "{{ base_url }}/api/partner/transfer"
+name: Make Transfer
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "phone": "5519982492037",
+      "value": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107429
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

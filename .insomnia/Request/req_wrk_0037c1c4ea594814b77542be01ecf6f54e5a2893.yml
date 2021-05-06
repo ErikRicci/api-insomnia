@@ -1,0 +1,33 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f54e5a2893
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f535d0f5fb
+modified: 1620319107734
+created: 1620319107734
+url: "{{ base_url }}/api/partner/login"
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "email": "pai@parceiro.com",
+      "password": "123123",
+      "timezone": "America/Sao_Paulo"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107734
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

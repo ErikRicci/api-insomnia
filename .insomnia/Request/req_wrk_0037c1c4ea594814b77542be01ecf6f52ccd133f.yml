@@ -1,0 +1,31 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f52ccd133f
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f585dfa32c
+modified: 1620319107695
+created: 1620319107695
+url: "{{ base_url }}/api/partner/account/notification"
+name: Set Notification URL
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "notification_url": "https://webhook.site/78498d87-cd9e-4548-a1a4-5667d9d81f8e"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107695
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

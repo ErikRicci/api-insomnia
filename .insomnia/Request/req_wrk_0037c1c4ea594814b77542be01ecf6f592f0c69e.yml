@@ -1,0 +1,24 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f592f0c69e
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f50a893ece
+modified: 1620319107578
+created: 1620319107578
+url: "{{ base_url }}/api/misc/logs"
+name: Get Logs
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107578
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

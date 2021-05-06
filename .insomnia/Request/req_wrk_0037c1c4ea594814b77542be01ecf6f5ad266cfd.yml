@@ -1,0 +1,28 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f5ad266cfd
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f585dfa32c
+modified: 1620319107697
+created: 1620319107697
+url: "{{ base_url }}/api/partner/account/profile_photo"
+name: Change Profile Image (Partner/ADM)
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: multipart/form-data
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107697
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

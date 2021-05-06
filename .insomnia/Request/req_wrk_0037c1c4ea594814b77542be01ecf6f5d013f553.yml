@@ -1,0 +1,32 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f5d013f553
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f55cafa891
+modified: 1620319107321
+created: 1620319107321
+url: "{{ base_url }}/api/partner/deposit/bank-account"
+name: Solicit Partner Bank Transfer
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "value": 55,
+      "bank_account_id": 2
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107321
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

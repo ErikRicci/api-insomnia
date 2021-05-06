@@ -1,0 +1,31 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f540fdd8b6
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f5c18f8f25
+modified: 1620319107818
+created: 1620319107818
+url: "{{ base_url }}/api/notifications"
+name: Set Notifications
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "has_notifications": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107818
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

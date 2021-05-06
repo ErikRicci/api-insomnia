@@ -1,0 +1,31 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f5b20a4a6f
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f590eef613
+modified: 1620319107453
+created: 1620319107453
+url: "{{ base_url }}/api/partner/customers/balance/1/verify"
+name: Verificate Customer Balance
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "value": 142.71
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107453
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

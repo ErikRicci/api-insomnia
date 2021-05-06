@@ -1,0 +1,30 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f535bdd7b8
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f5ee1acfa5
+modified: 1620319107538
+created: 1620319107538
+url: "{{ base_url }}/api/auth"
+name: Verificate Token
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+  - name: version
+    disabled: false
+    value: 2.1.7
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107538
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

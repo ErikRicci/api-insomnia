@@ -1,0 +1,34 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f581e6a9e5
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f56b90b6a1
+modified: 1620319106667
+created: 1620319106667
+url: "{{ base_url }}/api/makefavorite/card"
+name: Make Card Favorite (not developed)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "card_id": 42
+    }
+parameters: []
+headers:
+  - name: version
+    disabled: false
+    value: 2.1.5
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319106667
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

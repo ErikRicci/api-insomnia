@@ -1,0 +1,24 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f52adbfff6
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f56d391e13
+modified: 1620319107254
+created: 1620319107254
+url: "{{ base_url }}/api/bank-accounts/1"
+name: Get Bank Account by ID (ADM)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107254
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

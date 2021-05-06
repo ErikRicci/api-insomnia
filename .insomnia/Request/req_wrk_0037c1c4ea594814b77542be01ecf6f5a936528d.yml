@@ -1,0 +1,24 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f5a936528d
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f5702e91cc
+modified: 1620319106711
+created: 1620319106711
+url: "{{ base_url }}/api/withdraw/refuse/115"
+name: Refuse Withdraw (ADM)
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319106711
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

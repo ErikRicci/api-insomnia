@@ -1,0 +1,34 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f55c780574
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f52f71695b
+modified: 1620319106645
+created: 1620319106645
+url: "{{ base_url }}/api/reward/6"
+name: Reward User
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "value": 1000000
+    }
+parameters: []
+headers:
+  - name: version
+    disabled: false
+    value: 2.1.7
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319106645
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

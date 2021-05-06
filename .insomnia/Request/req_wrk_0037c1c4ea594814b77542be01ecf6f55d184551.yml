@@ -1,0 +1,34 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f55d184551
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f52f71695b
+modified: 1620319106650
+created: 1620319106650
+url: "{{ base_url }}/api/admin/generate-token"
+name: Generate New ADM Token
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "email": "tutamackenzie@hotmail.com",
+      "password": "123456",
+      "secret": "ADMINISTRATOR_TOKEN",
+      "granted": "RW"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319106650
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

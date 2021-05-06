@@ -1,0 +1,30 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f593124d50
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f5702e91cc
+modified: 1620319106718
+created: 1620319106718
+url: "{{ base_url }}/api/withdraw"
+name: Get Withdraws
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: status
+    disabled: false
+    value: "1"
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319106718
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

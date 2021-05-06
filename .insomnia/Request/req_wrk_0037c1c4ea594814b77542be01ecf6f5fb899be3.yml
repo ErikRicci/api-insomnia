@@ -1,0 +1,24 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f5fb899be3
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f57b838c76
+modified: 1620319106633
+created: 1620319106633
+url: "{{ base_url }}/api/idwallservice"
+name: Check IDWall
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319106633
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

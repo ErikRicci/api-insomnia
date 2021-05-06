@@ -1,0 +1,24 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f5d76f3e8c
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f55490ed91
+modified: 1620319106707
+created: 1620319106707
+url: "{{ base_url }}/api/transfer"
+name: Get Transfers
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319106707
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

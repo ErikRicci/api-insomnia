@@ -1,0 +1,27 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f5a3dba3f7
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f50a893ece
+modified: 1620319107597
+created: 1620319107597
+url: "{{ base_url }}/api/misc/faq/2"
+name: Delete FAQ
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107597
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

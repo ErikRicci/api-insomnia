@@ -1,0 +1,24 @@
+_id: req_wrk_0037c1c4ea594814b77542be01ecf6f5cd9303fa
+type: Request
+parentId: fld_wrk_0037c1c4ea594814b77542be01ecf6f5b41a92be
+modified: 1620319107123
+created: 1620319107123
+url: "{{ base_url }}/pagstar/redeem/afb6afc2701ad4d5d1d404781fc1936c"
+name: QR Site
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1620319107123
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
